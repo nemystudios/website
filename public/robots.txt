@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nemystudios.vercel.app/sitemap.xml
