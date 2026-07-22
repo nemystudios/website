@@ -1,46 +1,20 @@
-# Proyecto Atlas v2.0 — Nemy Studios
+# Proyecto Atlas v3.0 — Nemy Studios
 
-Web oficial de Nemy Studios construida con React, Vite, Tailwind CSS, Framer Motion y Lucide Icons.
+Versión de producción sin proceso de compilación ni dependencias externas.
 
-## Desarrollo local
+## Por qué esta versión es más confiable
+- No utiliza npm durante el despliegue.
+- No necesita Node, Vite ni un servidor de aplicaciones en Vercel.
+- El repositorio contiene directamente los archivos finales que se publican.
+- Mantiene componentes visuales y scripts modulares sin depender de un framework.
 
-```bash
-npm install
-npm run dev
-```
+## Publicación en Vercel
+1. Reemplaza el contenido del repositorio `nemystudios/website` por esta carpeta.
+2. En Vercel selecciona Framework Preset: `Other`.
+3. Build Command: vacío.
+4. Output Directory: vacío.
+5. Install Command: vacío.
+6. Deploy.
 
-## Comprobar antes de publicar
-
-```bash
-npm run lint
-npm run build
-```
-
-## Publicar en Vercel
-
-Vercel detectará Vite automáticamente:
-
-- Framework Preset: `Vite`
-- Build Command: `npm run build`
-- Output Directory: `dist`
-- Install Command: `npm install`
-
-## Reemplazar la versión anterior del repositorio
-
-Desde PowerShell, dentro de la carpeta del proyecto:
-
-```powershell
-git add .
-git commit -m "feat: migrate website to Proyecto Atlas v2.0"
-git push
-```
-
-Vercel realizará un despliegue automático después del push.
-
-## URL de privacidad para Google Play
-
-`https://TU-DOMINIO/privacidad/nemy-ocr`
-
-## Nota
-
-Cuando Nemy OCR esté disponible en Google Play, se debe reemplazar el botón de la página de producto por el enlace real de descarga.
+## URL de política para Google Play
+`https://TU-DOMINIO.vercel.app/privacidad/nemy-ocr/`
